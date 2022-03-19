@@ -4,7 +4,7 @@ import os
 import zipfile
 
 PACKAGE_NAME="shell"
-FILES=[f"{PACKAGE_NAME}.py", f"{PACKAGE_NAME}.ico","LICENSE"]
+FILES=[f"{PACKAGE_NAME}.py", f"{PACKAGE_NAME}.ico", f"{PACKAGE_NAME}.ini", "LICENSE"]
 
 ETC_FOLDER=Path(__file__).parent
 PACKAGE_FOLDER=ETC_FOLDER.parent
