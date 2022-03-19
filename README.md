@@ -1,18 +1,21 @@
-Keypirinha Plugin: Rdp
+Keypirinha Plugin: Shell
 =========
-# Launch previously opened Rdp sessions
+# Open known Windows Shell folders
 
-This plugin for Keypirinha lets you type Rdp and part of the name of a machine you previously connected to and it will launch the Windows RDP program (MSTSC) to connect to that machine.
+This plugin for Keypirinha lets you type Shell and a known Windows shell folder to quickly open such folder.
 
 ## Usage ##
 Open the LaunchBox and type:
 ```
-Rdp <tab> <partial-machine-name> <enter>
+Shell <tab> <partial-shell-folder-name> <enter>
 ```
-## Installation and Setup ##
-The easiest way to install Rdp is to use the [PackageControl](https://github.com/ueffel/Keypirinha-PackageControl) plugin's InstallPackage command. 
 
-For manual installation simply download the rdp.keypirinha-package file from the Releases page of this repository to:
+
+
+## Installation and Setup ##
+The easiest way to install Shell is to use the [PackageControl](https://github.com/ueffel/Keypirinha-PackageControl) plugin's InstallPackage command. 
+
+For manual installation simply download the shell.keypirinha-package file from the Releases page of this repository to:
 
 * `Keypirinha\portable\Profile\InstalledPackages` in **Portable mode**
 
@@ -23,7 +26,7 @@ For manual installation simply download the rdp.keypirinha-package file from the
 
 ## Credits ##
 
-* Icon by David Cross, Hungary (https://webhostingmedia.net/)
+* [How-to-Geek article](https://www.howtogeek.com/257715/how-to-open-hidden-system-folders-with-windos-shell-command/)
 
 ## Release Notes ##
 
