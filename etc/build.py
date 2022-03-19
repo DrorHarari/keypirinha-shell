@@ -9,7 +9,7 @@ FILES=[f"{PACKAGE_NAME}.py", f"{PACKAGE_NAME}.ico","LICENSE"]
 
 ETC_FOLDER=Path(__file__).parent
 PACKAGE_FOLDER=ETC_FOLDER.parent
-PACKAGE_FILE=Path.joinpath(PACKAGE_FOLDER, f"{PACKAGE_NAME}.keypirinha-package")
+PACKAGE_FILE=Path.joinpath(PACKAGE_FOLDER, f"{PACKAGE_NAME.capitalize()}.keypirinha-package")
 
 print(f"Creating package file {PACKAGE_FILE}")
 
